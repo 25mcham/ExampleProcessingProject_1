@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72d68dba-637f-4f4d-8c84-c7204465af85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageProcessing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/snorlax copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContrastedPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Panel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RotatingPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TintedPanel.java" afterDir="false" />
+    <list default="true" id="72d68dba-637f-4f4d-8c84-c7204465af85" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RotatingPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RotatingPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +72,21 @@
       <option name="presentableId" value="Default" />
       <updated>1673996952656</updated>
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1676070760989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070760989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ImageProcessing$Main.ic" NAME="Main Coverage Results" MODIFIED="1676435778027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -34,7 +34,7 @@ public class CustomPanel extends Panel{
     public void handleMouseCLicked(int mX, int mY) {
         if (mX > getx() && mX <getx()+getWidth() && mY >gety() && mY < gety() + getHeight()) {
             Main.app.println("mouseclicked");
+            bouncing = !bouncing;
         }
-        bouncing = !bouncing;
     }
 }

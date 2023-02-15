@@ -29,7 +29,7 @@ public class RotatingPanel extends Panel {
     public void handleMouseCLicked(int mX, int mY) {
         if (mX > getx() && mX <getx()+getWidth() && mY >gety() && mY < gety() + getHeight()) {
             System.out.println("mouseclicked");
+            rotating = !rotating;
         }
-        rotating = !rotating;
     }
 }

@@ -103,17 +103,27 @@ public class Main extends PApplet{
         }
 
         if(key == 'r'){
-            /*Random rand  = new Random();
-            int exy = rand.nextInt(14);
-
+            Random rand  = new Random();
+            int exy = rand.nextInt(15);
             Panel og = panels.remove(exy);
 
-            TintedPanel swap = new TintedPanel(og.getx(), og.gety(), og.getWidth(), og.getHeight());
-            panels.add(exy, swap);
+            if(4<=exy && exy <= 6){
+                CustomPanel swap = new CustomPanel(og.getx(), og.gety(), og.getWidth(), og.getHeight());
+                panels.add(exy, swap);
 
-            swap.display();
+                swap.setx(og.getx());
+                swap.sety(og.gety());
 
-             */
+                swap.setUpImage("data/snorlax copy.png");
+            }else {
+                TintedPanel swap = new TintedPanel(og.getx(), og.gety(), og.getWidth(), og.getHeight());
+                panels.add(exy, swap);
+
+                swap.setx(og.getx());
+                swap.sety(og.gety());
+
+                swap.setUpImage("data/snorlax copy.png");
+            }
         }
     }
 }
